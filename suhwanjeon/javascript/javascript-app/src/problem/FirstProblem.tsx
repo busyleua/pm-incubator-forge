@@ -7,8 +7,10 @@ export const FirstProblem = () => {
 
     if (z > x) {
         result = "Hello.";
+        // z가 x보다 크면 Hello 출력
     } else {
         result = "Hi";
+        // z가 x보다 작거나 같으면 Hi 출력  
     }
 
     let ternaryResult = z > x? "Hello." : "Hi";
@@ -19,6 +21,8 @@ export const FirstProblem = () => {
             
             <pre>{
                 `
+     Z가 X보다 크면 Hello
+     Z가 X보다 작거나 같으면 Hi 출력            
     z = ${z}                            // 5        
     x = ${x}                            // 7
     result = ${result}                  Hi  
