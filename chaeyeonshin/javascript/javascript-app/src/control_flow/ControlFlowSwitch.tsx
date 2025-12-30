@@ -8,6 +8,16 @@ export const ControlFlowSwitch = () => {
     let grade = Math.floor(Math.random() * 5) + 1
     let gradeName
 
+    // switch문 작성 요령
+    // switch (변수) {
+    //   case 값1: 실행문1; break;
+    //   case 값2: 실행문2; break;
+    //   ...
+    //   default: 실행문N; break; }
+
+    // break; : switch문 종료하라는 뜻
+    // 변수의 값이 값1과 일치하면 실행문1 실행 후 switch문 종료
+    // 변수의 값이 어떤 case문과도 일치하지 않을 때 default 실행
     switch (grade) {
         case 1: gradeName = "SSS"; break;
         case 2: gradeName = "SS"; break;
