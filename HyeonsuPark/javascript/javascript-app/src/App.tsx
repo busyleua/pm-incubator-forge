@@ -1,5 +1,6 @@
 import './App.css'
 import { ControlFlowIf } from './control_flow/ControlFlowIf'
+import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 import { VariableAndDataType } from './data_type/VariableAndDataType'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
@@ -20,6 +21,7 @@ function App() {
         <LogicalOperationExample/>
         <ControlFlowIf/>
         <FirstProblem/>
+        <ControlFlowSwitch/>
       </div>
     </>
   )
