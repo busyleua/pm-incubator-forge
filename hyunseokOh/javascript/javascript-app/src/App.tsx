@@ -7,6 +7,7 @@ import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { ControlFlowIf } from './control_flow/ControlFlowIf'
 import { FirstProblem } from './problem/FirstProblem'
+import { ControlFlowSwitch } from './control_flow/ControlFlowSwitch'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +25,8 @@ function App() {
         <ControlFlowIf/>
         <br />
         <FirstProblem/>
-        
+        <br />
+        <ControlFlowSwitch/>
       </div>
     </>
   )
