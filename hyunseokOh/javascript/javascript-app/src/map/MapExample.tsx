@@ -1,5 +1,8 @@
 export const MapExample = () => {
+    // 숫자 배열의 각 요소를 제곱하는 예제
+    // map 함수를 사용하여 새로운 배열 생성
     let number_array: number[] = [1, 2, 3, 4, 5];
+    // 각 요소를 제곱하여 새로운 배열 생성
     let mapped_array = number_array.map((num) => num * num);
 
     return (
