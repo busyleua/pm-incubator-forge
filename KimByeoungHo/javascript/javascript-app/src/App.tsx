@@ -11,6 +11,8 @@ import { ControlFlowForSumExample } from './control_flox/ControlFlowForSumExampl
 import SecondProblem from './problem/SecondProblem'
 import {MapExample} from './Map/MapExample'
 import {MapReduceExample} from './Map/MapReduceExample'
+import { MapFilterExample } from './Map/MapFilterExample'
+import { ArraySliceExample } from './Array/ArraySliceExample'
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
         <SecondProblem/>
         <MapExample/>
         <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
       </div>
     </>
   )
