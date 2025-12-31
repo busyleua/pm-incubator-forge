@@ -15,6 +15,8 @@ import { SecondProblem } from './problem/SecondProblem'
 import { MapExample } from './map/MapExample'
 import { MapReduceExample } from './map/MapReduceExample'
 import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySpliceExample } from './array/ArraySpliceExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -36,6 +38,8 @@ function App() {
         <MapExample/>
         <MapReduceExample/>
         <MapFilterExample/>
+        <ArraySliceExample/>
+        <ArraySpliceExample/>
       </div>
     </>
   )
